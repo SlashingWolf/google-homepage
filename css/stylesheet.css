@@ -53,7 +53,7 @@ body{
 	font-size: 13px;
 	font-family: arial;
 }
-ul{
+.navbar{
 	list-style-type: none;
 	display:block;
 	margin: 10px 20px;
@@ -68,9 +68,12 @@ li{
 }
 a {
 	text-decoration: none;
-	color: #000;
+	color: rgb(34, 34, 34);
 	padding:10px;
 	display: block-inline;
+}
+body div div a{
+	color:rgb(102, 102, 102);
 }
 .apps {
 	/*background-image: url("https://ssl.gstatic.com/gb/images/i1_1967ca6a.png");
@@ -104,7 +107,8 @@ a {
 	outline-color: rgb(0, 0, 0);
 	outline-style: none;
 	outline-width: 0px;
-	text-alignlefttext-decoration: none;
+	text-align: left;
+	text-decoration: none;
 	text-decoration-color: rgb(0, 0, 0);
 	text-decoration-line: none;
 	text-decoration-style: solid;
@@ -113,4 +117,33 @@ a {
 	width: 30px;
 
 
+}
+.footer {
+	display:inline-block;
+	position: fixed;
+    bottom: 0;
+    background-color: #FFF;
+    width: 100%;
+    font-size: small;
+    line-height: 40px;
+    color:rgb(102, 102, 102);
+    background-image: -moz-linear-gradient(top,#f5f5f5,#f1f1f1);
+	background-image: -webkit-linear-gradient(top,#f5f5f5,#f1f1f1);
+	background-image: -linear-gradient(top,#f5f5f5,#f1f1f1);
+	border-top: 1px solid rgb(228, 228, 228);
+	background-color: rgb(242, 242, 242);
+
+
+}
+.left{
+	float:left;
+	position: relative;
+	padding-right: 5px;
+	left: 30px;
+}
+.right {
+	float:right;
+	position:relative;
+	padding-right: 5px;
+	right: 30px;
 }
